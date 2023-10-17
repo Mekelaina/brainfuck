@@ -10,13 +10,19 @@ it has 8 possible operations, repersented by `> < + - [ ] , .`<br>
 all other characters are treated as comments.
 <br>
 <hr>
-|   |                                                                      |
-|---|----------------------------------------------------------------------|
-| > | Move the data pointer right by 1. (increment it)                     |
-| < | Move the data pointer left by 1. (decrement it)                      |
-| + | Increment the byte at the data pointer by 1                          |
-| - | Decrement the byte at the data pointer by 1                          |
-| . | Output the byte at the data pointer                                  |
-| , | Accept one byte of data as input, stored in the byte at data pointer |
-| [ |  If byte at pointer is 0, jump to closing bracket                    |
-| ] | If byte at pointer is non zero, jump to opening bracket              |
+
+| Op | Effect                                                               |
+|:---:|:--------------------------------------------------------------------:|
+| >  | Move the data pointer right by 1. (increment it)                     |
+| <  | Move the data pointer left by 1. (decrement it)                      |
+| +  | Increment the byte at the data pointer by 1                          |
+| -  | Decrement the byte at the data pointer by 1                          |
+| ,  | Accept one byte of data as input, stored in the byte at data pointer |
+| .  | Output the byte at the data pointer                                  |
+| [  | If byte at pointer is 0, jump to closing bracket                     |
+| ]  | If byte at pointer is non zero, jump to opening bracket              |
+
+<br><br>
+Read more here:<br>
+[Wikipedia](https://en.wikipedia.org/wiki/Brainfuck)<br>
+[Esolang Wiki](https://esolangs.org/wiki/Brainfuck)
